@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color:#dc143c;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color:#f0f8ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#cd853f;
+}
+
+.container{
+    background-color:lightcoral;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 20px; 
+    padding: 50px;
+    margin: 20px;
+    
+}
